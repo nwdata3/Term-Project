@@ -1,6 +1,6 @@
 # Term-Project
 # Introduction
-I’m conducting this research as the fund manager of an investment fund focused on energy, biosciences, and cryptocurrency securities. I plan to use technical analysis methods to guide buy and sell decisions, particularly in response to market volatility. My goal is to provide actionable insights for individuals with traditional finance backgrounds who are interested in learning how data science-driven, technically focused strategies can be applied to today’s markets. I’m also working to build a forward-looking portfolio centered around emerging technologies that support the future of industry, human advancement, and digital assets. I believe these sectors will be pivotal to the long-term health of our environment and the evolution of the human species.
+This project represents an investment fund for a financial engineering class incorporating Monte Carlo simulation, a portfolio 34 energy stocks, and advanced modeling techniques.
 
 # Literature Review 
 
@@ -14,20 +14,20 @@ A common theme across these works is the importance of diversification across se
 
 # Methods
 This research is based on technical analysis and emphasizes diversification across ETFs, individual stocks, and sector-based funds.
-Portfolio Structure Plan:
-1. I’ll begin by screening ETFs within each target sector (energy, biosciences, manufacturing, and crypto) using historical price data, trend strength, and technical patterns.
-2. I will then identify high-potential individual stocks through platforms like Stocktwits, MarketBeat, and trend analysis dashboards.
-3. Given that this approach is driven by technicals rather than fundamentals, my focus will be on chart patterns, volume trends, moving averages, and support/resistance levels.
-
+Data collection was sourced Yahoo Finance via Python incorporating the past 25 years of history.
+This dataset captures key market shocks, including the 2008 recession and the COVID-19 inflation window, to ensure resilience.
+While initially launched as a long-only strategy, we evaluated shorting and hedging and determined they were more effective for a growth-focused mandate during periods of volatility. 
+Our Momentum Trading Strategy is to incorporate long and short positions rebalanced monthly to assess returns. 
+Stocks are ranked against each other using this cross-sectional momentum to rebalance on a more consistent basis given its long and short position strategy. Assumes longing the best performers and shorting the worst performers.
 A key challenge is the risk of misinterpretation due to market manipulation (e.g., short squeezes, insider activity). However, these same distortions can also highlight market inefficiencies, creating opportunities for short-term gains that may not be apparent through fundamental analysis.
 
 # Results
 
 What I’ve discovered so far from my research is the following: 
-1. Bioscience companies often trade based on clinical trial milestones and FDA approval stages, leading to extreme volatility. This factor will be critical in deciding which individual stocks to include.
-2. Cryptocurrency is now a relevant and legitimate part of a diversified portfolio. Its performance is increasingly decorrelated from traditional equity markets, making it useful for hedging and alternative exposure.
-
+1. Cross Sectional Momentum Trading Strategy is less volatile during downturns of XLE benchmark, but overall less cumulative return.
+2. Energy Sector is highly complex and more research would be necessary to apply new features and stocks for a more robust portfolio.
+   
 My plan is for high-growth potential with some risk management across my portfolio given having a more risk-averse mentality.
 
 # Conclusion
-Overall, I feel comfortable with my sectors that I picked and my overall diversification high-level strategy. Based on what historical research has suggested, not concentrating on one sector and apply it across crypto, equities, and forex and timeframes should also be considered. 
+Overall, I would not recommend starting this fund.
