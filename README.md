@@ -31,3 +31,6 @@ My plan is for high-growth potential with some risk management across my portfol
 
 # Conclusion
 Overall, I would not recommend starting this fund.
+
+# Disclosures
+ChatGPT was utilized to refine errors in my analysis and provide guidance on applying momentum trading strategies within the energy sector.
